@@ -1,30 +1,40 @@
 [submodule "bundle/gundo"]
 	path = bundle/gundo
-	url = http://github.com/sjl/gundo.vim.git
+    url = http://github.com/sjl/gundo.vim.git
+    ignore = dirty
 [submodule "bundle/ack"]
 	path = bundle/ack
-	url = https://github.com/mileszs/ack.vim
+    url = https://github.com/mileszs/ack.vim
+    ignore = dirty
 [submodule "bundle/abolish"]
 	path = bundle/abolish
 	url = https://github.com/tpope/vim-abolish.git
+    ignore = dirty
 [submodule "bundle/cocoa"]
 	path = bundle/cocoa
 	url = https://github.com/msanders/cocoa.vim.git
+    ignore = dirty
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://github.com/tpope/vim-commentary.git
+    ignore = dirty
 [submodule "bundle/snipmate"]
 	path = bundle/snipmate
 	url = https://github.com/msanders/snipmate.vim
+    ignore = dirty
 [submodule "bundle/supertab"]
 	path = bundle/supertab
 	url = https://github.com/ervandew/supertab
+    ignore = dirty
 [submodule "bundle/vimwiki"]
 	path = bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
+    ignore = dirty
 [submodule "bundle/yankring"]
 	path = bundle/yankring
 	url = https://github.com/vim-scripts/YankRing.vim.git
+    ignore = dirty
 [submodule "bundle/fswitch"]
 	path = bundle/fswitch
-	url = https://github.com/derekwyatt/vim-fswitch.git
+    url = https://github.com/derekwyatt/vim-fswitch.git
+    ignore = dirty
