@@ -1,9 +1,13 @@
-set go-=T
-"set guifont=Lucida_Sans_Typewriter:h16
-"set guifont=Menlo\ Regular:h16
+set go-=T "no toolbar
+set go-=m "no menubar 
+
+set encoding=utf-8
 set guifont=Consolas:h11
-colorscheme vibrantink
+"set guifont=droid_sans_mono_for_powerline:h10
+
+colorscheme vividchalk
+"colorscheme badwolf 
+"colorscheme vibrantink 
 
 au FocusLost * :wa
-
 syntax enable

@@ -50,3 +50,9 @@
 	path = bundle/airline
     url = https://github.com/bling/vim-airline.git
     ignore = dirty
+[submodule "fonts/consolas"]
+	path = fonts/consolas
+	url = https://github.com/nicolalamacchia/powerline-consolas.git
+[submodule "bundle/vividchalk"]
+	path = bundle/vividchalk
+	url = https://github.com/tpope/vim-vividchalk.git

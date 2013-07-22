@@ -1,6 +1,3 @@
-filetype off
-call pathogen#runtime_append_all_bundles()
-filetype plugin indent on
 
 " Force the come directy to the Windows home 
 " directory, e.g. C:\User\username
@@ -202,3 +199,8 @@ autocmd FileType Vimwiki setlocal spell
 autocmd InsertEnter * setlocal nospell
 autocmd InsertLeave * setlocal spell
 
+let g:airline_powerline_fonts = 1
+
+filetype off
+call pathogen#runtime_append_all_bundles()
+filetype plugin indent on
