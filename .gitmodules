@@ -38,3 +38,15 @@
 	path = bundle/fswitch
     url = https://github.com/derekwyatt/vim-fswitch.git
     ignore = dirty
+[submodule "bundle/bufferline"]
+	path = bundle/bufferline
+	url = https://github.com/bling/vim-bufferline.git
+    ignore = dirty
+[submodule "bundle/badwolf"]
+	path = bundle/badwolf
+	url = https://github.com/sjl/badwolf.git
+    ignore = dirty
+[submodule "bundle/airline"]
+	path = bundle/airline
+    url = https://github.com/bling/vim-airline.git
+    ignore = dirty
