@@ -1,7 +1,7 @@
 
 " Force the come directy to the Windows home 
 " directory, e.g. C:\User\username
-let $HOME=$USERPROFILE
+"let $HOME=$USERPROFILE
 
 set shm=atI " Disable the distracting intro screen.
 set lazyredraw " Don't redraw the screen during macros.

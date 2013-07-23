@@ -4,7 +4,7 @@ set encoding=utf-8
 
 if has("gui_running")
   if has("gui_gtk2")
-    set guifont=Droid\ Sans\ Mono\ Regular\ 12
+    set guifont=Droid\ Sans\ Mono\ for\ Powerline\ 12
   elseif has("gui_photon")
     set guifont=Droid\ Sans\ Mono\ Regular:s12
   elseif has("gui_kde")
