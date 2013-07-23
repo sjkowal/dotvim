@@ -1,5 +1,4 @@
-Vim configuration
-=================
+# Vim configuration #
 
 ## OSX Setup ##
 
