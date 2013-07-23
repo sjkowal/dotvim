@@ -53,9 +53,16 @@
 [submodule "fonts/consolas"]
 	path = fonts/consolas
 	url = https://github.com/nicolalamacchia/powerline-consolas.git
+    ignore = dirty
 [submodule "bundle/vividchalk"]
 	path = bundle/vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
+    ignore = dirty
 [submodule "fonts/powerline-fonts"]
 	path = fonts/powerline-fonts
 	url = https://github.com/Lokaltog/powerline-fonts.git
+    ignore = dirty
+[submodule "bundle/fugitive"]
+	path = bundle/fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+    ignore = dirty
