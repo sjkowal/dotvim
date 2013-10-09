@@ -196,11 +196,8 @@ nmap <silent> <Leader>dx :Dox<cr>
 let g:DoxygenToolkit_briefTag_pre="\\brief "
 let g:DoxygenToolkit_paramTag_pre="\\param "
 let g:DoxygenToolkit_returnTag="\\return "
-" let g:DoxygenToolkit_blockHeader="--------------------------------------------------------------------------"
-"let g:DoxygenToolkit_blockFooter="----------------------------------------------------------------------------"
 let g:DoxygenToolkit_authorName="Steven Kowal"
-let g:DoxygenToolkit_licenseTag="My own license"   <-- !!! Does not end with "\<enter>"
-
+let g:DoxygenToolkit_licenseTag="My own license" 
 
 let g:vimwiki_list = [{'path': '~/Documents/vimhome/wiki'},{'path': '~/mediawiki/', 'syntax': 'media'}]
 
