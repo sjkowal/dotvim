@@ -12,6 +12,16 @@
 * $ ln -s ~/.vim/vimrc ~/.vimrc
 * $ ln -s ~/.vim/gvimrc ~/.gvimrc
 
+Next Load vim and re-build the help...
+:Helptags
+
+### Adding a new bundle ###
+* $ cd ~/.vim
+* $ mkdir ~/.vim/bundle
+* $ git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+* $ git add .
+* $ git commit -m "Install Fugitive.vim bundle as a submodule."
+
 ### Font Setup ###
 Set up fonts by adding a link to $HOME/.fonts
 * $ cd ~/.fonts
