@@ -193,6 +193,12 @@ nnoremap <F5> :GundoToggle<CR>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 nmap <silent> <Leader>dx :Dox<cr>
 
+let g:DoxygenToolkit_briefTag_pre="\\brief "
+let g:DoxygenToolkit_paramTag_pre="\\param "
+let g:DoxygenToolkit_returnTag="\\return "
+let g:DoxygenToolkit_authorName="Steven Kowal"
+let g:DoxygenToolkit_licenseTag="My own license" 
+
 let g:vimwiki_list = [{'path': '~/Documents/vimhome/wiki'},{'path': '~/mediawiki/', 'syntax': 'media'}]
 
 autocmd FileType Vimwiki setlocal spell
