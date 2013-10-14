@@ -68,4 +68,5 @@
     ignore = dirty
 [submodule "bundle/doxygentoolkit"]
 	path = bundle/doxygentoolkit
-	url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+    url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
+    ignore = dirty
