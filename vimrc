@@ -1,5 +1,5 @@
 
-" Force the come directy to the Windows home 
+" Uncomment to force the home directory to the Windows home 
 " directory, e.g. C:\User\username
 "let $HOME=$USERPROFILE
 
@@ -55,12 +55,6 @@ set undofile
 set lines=50 
 set columns=80
 
-"Set the following in .gvimrc
-"set go-=T
-"set guifont=Menlo\ Regular:h16
-"set guifont=Consolas:h12
-"set guifont=Consolas\ 13
-"colorscheme vibrantink
 let mapleader = ","
 
 nnoremap / /\v
@@ -199,13 +193,20 @@ let g:DoxygenToolkit_returnTag="\\return "
 let g:DoxygenToolkit_authorName="Steven Kowal"
 let g:DoxygenToolkit_licenseTag="My own license" 
 
-let g:vimwiki_list = [{'path': '~/Documents/vimhome/wiki'},{'path': '~/mediawiki/', 'syntax': 'media'}]
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => vimwiki plugin 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+let g:vimwiki_list = [{'path': '~/Documents/vimhome/wiki', 'template_path': '~/vimwiki_templates', 'template_default': 'msword2k10', 'template_ext': '.html'},{'path': '~/mediawiki/', 'syntax': 'media'}]
 
 autocmd FileType Vimwiki setlocal spell
 autocmd InsertEnter * setlocal nospell
 autocmd InsertLeave * setlocal spell
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => airline plugin 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 
 filetype off
 call pathogen#runtime_append_all_bundles()
