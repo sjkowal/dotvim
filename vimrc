@@ -164,6 +164,9 @@ map <leader>sp [s
 map <leader>sa zg
 map <leader>s? z=
 
+map <leader>h :bp<cr>
+map <leader>l :bn<cr>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => FSwitch plugin 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
