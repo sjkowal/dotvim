@@ -32,5 +32,7 @@ colorscheme vibrantink
 "colorscheme badwolf 
 "colorscheme vibrantink 
 
+set vb t_vb=
+
 au FocusLost * :wa
 syntax enable

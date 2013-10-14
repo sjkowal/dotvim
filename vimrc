@@ -45,7 +45,7 @@ set showmode
 set showcmd
 set hidden
 set wildmode=list:longest
-set visualbell
+set vb t_vb=
 set cursorline
 set backspace=indent,eol,start
 set laststatus=2
