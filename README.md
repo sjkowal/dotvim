@@ -23,10 +23,12 @@ Next Load vim and re-build the help...
 * $ git commit -m "Install Fugitive.vim bundle as a submodule."
 
 ### Font Setup ###
-Set up fonts by adding a link to $HOME/.fonts
+Set up fonts for Linux by adding a link to $HOME/.fonts
 * $ cd ~/.fonts
 * $ ln -s ~/.vim/fonts vimfonts
 
+Set up fonts for Mac by copying font files into /Library/Fonts/
+* $ cp ~/.vim/fonts/powerline-fonts/Menlo/Menlo*.ttf /Library/Fonts
 
 ## Windows Setup ##
 * Gundo - requires Python 2.4+ (http://www.python.org/)
