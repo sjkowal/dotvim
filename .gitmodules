@@ -70,3 +70,6 @@
 	path = bundle/doxygentoolkit
     url = https://github.com/vim-scripts/DoxygenToolkit.vim.git
     ignore = dirty
+[submodule "bundle/plantuml"]
+	path = bundle/plantuml
+	url = https://github.com/aklt/plantuml-syntax.git
