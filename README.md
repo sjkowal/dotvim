@@ -1,9 +1,5 @@
 # Vim configuration #
 
-## OSX Setup ##
-
-## Linux Setup ##
-
 ### General Setup ###
 * $ git clone https://github/sjkowal/dotvim.git ~/.vim
 * $ cd ~/.vim
@@ -21,6 +17,22 @@ Next Load vim and re-build the help...
 * $ git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
 * $ git add .
 * $ git commit -m "Install Fugitive.vim bundle as a submodule."
+
+### Pulling latest for all submodules ###
+Since each submodules is tied to a specific commit, it can be nice to get them
+all up to date with thier master master. 
+
+* $ git submodule foreach git pull origin master
+
+After all the submodules have pulled from master add the changes and commit
+them.
+
+* $ git add .
+* $ git commit -m "updated all submodules to current master"
+* $ git push
+
+At this time I'm avoiding making any changes to the submodules so there's no
+modifications made to the submodules files.  
 
 ### Font Setup ###
 Set up fonts for Linux by adding a link to $HOME/.fonts
