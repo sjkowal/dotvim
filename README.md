@@ -42,8 +42,12 @@ Set up fonts for Linux by adding a link to $HOME/.fonts
 Set up fonts for Mac by copying font files into /Library/Fonts/
 * $ cp ~/.vim/fonts/powerline-fonts/Menlo/Menlo*.ttf /Library/Fonts
 
+Set up fonts for Winsows by double clicking on the following: 
+* C:\Vim\vimfiles\fonts\powerline-fonts\InconsolataDz\Inconsolata-dz for Powerline.otf
+Then choose install
+
 ## Windows Setup ##
 * Gundo - requires Python 2.4+ (http://www.python.org/)
 * Ack - requires Perl (http://strawberryperl.com) then run the command "cpan
-  App::Ack" from the command line.
+  App::Ack" from the command line...or perl -MCPAN -e "CPAN::Shell->force(qw(install App::Ack));"
 
