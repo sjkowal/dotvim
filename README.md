@@ -50,5 +50,5 @@ Then choose install
 * Gundo - requires Python 2.4+ (http://www.python.org/)
 * Ack - requires Perl (http://strawberryperl.com) then run the command "cpan
   App::Ack" from the command line...or perl -MCPAN -e "CPAN::Shell->force(qw(install App::Ack));"
-  AG - requires The Silver Searcher ( http://blog.kowalczyk.info/software/the-silver-searcher-for-windows.html) to be installed and is an alternative to
+* AG - requires The Silver Searcher ( http://blog.kowalczyk.info/software/the-silver-searcher-for-windows.html) to be installed and is an alternative to
   Ack.  Modify the vimrc file so that it's used by the ack plugin , let g:ackprg = 'ag --vimgrep'
