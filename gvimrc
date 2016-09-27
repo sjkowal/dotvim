@@ -15,7 +15,7 @@ if has("gui_running")
     set guifont=Inconsolata-dz\ for\ Powerline:h11
     "set guifont=Consolas:h12
   elseif has("gui_macvim")
-    set guifont=Menlo\ Regular\ for\ Powerline:h16
+    set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h16
   elseif has("x11")
     set guifont=-*-courier-medium-r-normal-*-*-180-*-*-m-*-*
   else

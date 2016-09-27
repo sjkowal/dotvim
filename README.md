@@ -1,7 +1,7 @@
 # Vim configuration #
 
 ### General Setup ###
-* $ git clone https://github/sjkowal/dotvim.git ~/.vim
+* $ git clone https://github.com/sjkowal/dotvim.git ~/.vim
 * $ cd ~/.vim
 * $ git submodule init
 * $ git submodule update
@@ -40,7 +40,7 @@ Set up fonts for Linux by adding a link to $HOME/.fonts
 * $ ln -s ~/.vim/fonts vimfonts
 
 Set up fonts for Mac by copying font files into /Library/Fonts/
-* $ cp ~/.vim/fonts/powerline-fonts/Menlo/Menlo*.ttf /Library/Fonts
+* $ cp ~/.vim/fonts/powerline-fonts/Meslo/Meslo*.otf /Library/Fonts
 
 Set up fonts for Winsows by double clicking on the following: 
 * C:\Vim\vimfiles\fonts\powerline-fonts\InconsolataDz\Inconsolata-dz for Powerline.otf
