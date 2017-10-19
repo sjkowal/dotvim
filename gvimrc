@@ -12,8 +12,8 @@ if has("gui_running")
   elseif has("gui_kde")
     set guifont=Droid\ Sans\ Mono\ Regular/12/-1/5/50/0/0/0/1/0
   elseif has("gui_win32")
-    set guifont=Inconsolata-dz\ for\ Powerline:h11
-    "set guifont=Consolas:h12
+    "set guifont=Inconsolata-dz\ for\ Powerline:h13
+    set guifont=Consolas:h13
   elseif has("gui_macvim")
     set guifont=Meslo\ LG\ M\ DZ\ for\ Powerline:h16
   elseif has("x11")

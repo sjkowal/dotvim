@@ -215,3 +215,7 @@ let g:airline#extensions#tabline#enabled = 1
 filetype off
 call pathogen#runtime_append_all_bundles()
 filetype plugin indent on
+
+if executable('ag')
+  let g:ackprg = 'ag --vimgrep'
+endif

@@ -43,12 +43,16 @@ Set up fonts for Mac by copying font files into /Library/Fonts/
 * $ cp ~/.vim/fonts/powerline-fonts/Meslo/Meslo*.otf /Library/Fonts
 
 Set up fonts for Winsows by double clicking on the following: 
-* C:\Vim\vimfiles\fonts\powerline-fonts\InconsolataDz\Inconsolata-dz for Powerline.otf
+* <vim dir>\vimfiles\fonts\consolas\consola.ttf
 Then choose install
 
 ## Windows Setup ##
 * Gundo - requires Python 2.4+ (http://www.python.org/)
+* ag - requires The Silver Searcher ( http://blog.kowalczyk.info/software/the-silver-searcher-for-windows.html) to be installed and is an alternative to
+  Ack.  
+
+If you want to us ack instead of ag it must be installed along with perl
 * Ack - requires Perl (http://strawberryperl.com) then run the command "cpan
   App::Ack" from the command line...or perl -MCPAN -e "CPAN::Shell->force(qw(install App::Ack));"
-* AG - requires The Silver Searcher ( http://blog.kowalczyk.info/software/the-silver-searcher-for-windows.html) to be installed and is an alternative to
-  Ack.  Modify the vimrc file so that it's used by the ack plugin , let g:ackprg = 'ag --vimgrep'
+* Modify the vimrc file so that the ack plugin no longer uses ag, e.g. remove - let g:ackprg = 'ag --vimgrep'
+
