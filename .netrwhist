@@ -1,7 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
-let g:netrw_dirhist_1='C:\Users\sjkowal\development\git\da_core_logixdataprovider\etc\run.d'
-let g:netrw_dirhist_2='C:\Users\sjkowal\development\git\da_core_logixdataprovider\etc\ini.d'
-let g:netrw_dirhist_3='C:\Users\sjkowal\development\git\da_core_logixdataprovider\etc\run.d'
-let g:netrw_dirhist_4='C:\users\sjkowal\development\git\da_logix_provider\src\LogixProvider'
-let g:netrw_dirhist_5='C:/users/sjkowal/development/git/da_logix_provider/src/LogixProvider'
