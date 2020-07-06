@@ -201,7 +201,7 @@ let g:DoxygenToolkit_licenseTag="My own license"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " let g:vimwiki_list = [{'path': '~/Dropbox/wiki', 'template_path': '~/vimwiki_templates', 'template_default': 'msword2k10', 'template_ext': '.html'},{'path': '~/mediawiki/', 'syntax': 'media'}]
 
-let g:vimwiki_list = [{'path': '~/vimwiki/',
+let g:vimwiki_list = [{'path': '~/Documents/vimwiki/',
                         \ 'syntax': 'markdown', 'ext': '.md'}]
 
 autocmd FileType Vimwiki setlocal spell
