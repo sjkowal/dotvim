@@ -15,8 +15,8 @@ set titlestring=%f title " Display the filename in the terminal window.
 set ruf=%l:%c ruler " Display current column/line in bottom right 
                     " (all I need, really).
 
-set wim=full wildmenu " Enable command-line tab completion (REALLY useful).
-set completeopt=menu " Don't show extra info on completions (not so useful).
+"set wim=full wildmenu " Enable command-line tab completion (REALLY useful).
+"set completeopt=menu " Don't show extra info on completions (not so useful).
 set wig+=*.o,*.obj,*.pyc,*.DS_Store,*.db " Hide irrelevent matches when 
                                          " completing stuff.
 set mouse=a
@@ -199,7 +199,10 @@ let g:DoxygenToolkit_licenseTag="My own license"
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => vimwiki plugin 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-let g:vimwiki_list = [{'path': '~/Dropbox/wiki', 'template_path': '~/vimwiki_templates', 'template_default': 'msword2k10', 'template_ext': '.html'},{'path': '~/mediawiki/', 'syntax': 'media'}]
+" let g:vimwiki_list = [{'path': '~/Dropbox/wiki', 'template_path': '~/vimwiki_templates', 'template_default': 'msword2k10', 'template_ext': '.html'},{'path': '~/mediawiki/', 'syntax': 'media'}]
+
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                        \ 'syntax': 'markdown', 'ext': '.md'}]
 
 autocmd FileType Vimwiki setlocal spell
 "Allow spell checking only when you leave insert mode
